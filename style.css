@@ -1,0 +1,86 @@
+@import url(https://googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+/* ページ全体の基本スタイル */
+body {
+ background-color:#dff7f2; /* 優しいミントグリーン */
+ font-family:'M PLUS Rounded 1c', sans-serif;
+ color:#333;
+ line-height:1.8;
+ margin:40px auto;
+ padding:0 20px;
+ max-width:800px;
+ border-radius:10px;
+ box-shadow:0 8px 20px rdba(0,0,0,0.05);
+}
+
+/* タイトル */
+h1 {
+ color:#3aa89d;
+ font-size: 2.5em;
+ text-align: center;
+ margin-bottom:40px;
+}
+
+/* サブタイトル */
+.subtitle {
+ text-align: center;
+ font-size: 1em;
+ color:#666;
+ margin-bottom:40px;
+}
+
+/* セクション見出し*/
+h2 {
+ border-bottom:2px solid #3aa89d;
+ padding-bottom:5px;
+ margin-top:40px;
+color:#3aa89d;
+}
+
+/*　小見出し */
+h3 {
+ margin-top:20px;
+ color:#666;
+}
+
+/* リスト */
+ul {
+ padding-left:20px;
+ background-color:rdba(255,255,255,0.85);
+ padding:15px;
+ border-radius:10px;
+ box-shadow:0 3px 10px rdba(0,0,0,0.05);
+}
+
+/* 日記っぽい記事 */
+.log-entry {
+ background-color:#ffffffcc;
+ padding:15px;
+ border-left:5px solid #3aa89d;
+ border-radius:10px;
+ margin-bottom:20px;
+ box-shadow:0 2px 5px rdba(0,0,0,0.05);
+}
+
+.log-entry h3 {
+ margin-top:0;
+ color:#3aa89d;
+}
+
+/* フッター */
+footer {
+ text-align:center;
+ margin-top:50px;
+ font-size:0.9em;
+ color:#666;
+}
+
+/* リンク */
+a {
+ color:#3aa89d;
+ text=decoration:none;
+}
+
+a:hover {
+ text-decoration:underline;
+}
